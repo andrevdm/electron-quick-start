@@ -16,15 +16,19 @@ You can learn more about each of these components within the [Quick Start Guide]
 
 ## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone and run this repository you'll need 
+ 1. [Git](https://git-scm.com) 
+ 2. [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) 
+ 3. Bower
+ 4. PureScript
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/andrevdm/electron-quick-start-pux
 # Go into the repository
-cd electron-quick-start
+cd electron-quick-start-pux
 # Install dependencies and run the app
-npm install && npm start
+npm install && bower install && pulp build && npm start
 ```
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).

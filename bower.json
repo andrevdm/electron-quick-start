@@ -1,0 +1,29 @@
+{
+  "name": "electron-quick-start-pux",
+  "description": "A minimal Electron application with Pux",
+  "main": "main.js",
+  "authors": [
+    "GitHub"
+  ],
+  "license": "CC0-1.0",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-console": "^1.0.0",
+    "purescript-pux": "^5.0.3",
+    "react": "^15.3.1",
+    "purescript-pux-devtool": "^3.0.1"
+  }
+}
